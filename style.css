@@ -39,3 +39,29 @@
   height: 39px;
   margin-left: 30px;
 }
+
+@media (max-width: 375px) {
+  .logo{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    
+  }
+
+  .menu-botao{
+    display: block;
+    width: 100%;
+    align-items: center;
+  }
+  
+  .menu {
+    display: block;
+    margin-top: 30px;
+  }
+
+  .menu li {
+    font-size: 40px;
+    line-height: 47px;
+    align-items: center;
+  }
+}
