@@ -1,0 +1,40 @@
+.header {
+  display: flex;
+  padding: 59px;
+  justify-content: space-between;
+  text-align: center;
+  flex-wrap: wrap;
+
+}
+
+.logo{
+  display: flex;
+  align-items: center;
+  
+}
+.menu {
+  display: flex; 
+  align-items: center;
+}
+
+.menu li {
+  margin-left: 30px;
+  font-family: 'Public Sans', sans-serif;
+}
+
+.menu li a:hover {
+color: white;
+background-color:  #5BC241;
+width: 55px;
+height: 40px;
+padding: 6px;
+}
+
+.button{
+ background-color: #5BC241;
+ color: white;
+ border-radius: 10px;
+ border:none;
+ width: 127px;
+ height: 39px;
+}
