@@ -1,6 +1,14 @@
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: 'Public Sans', sans-serif;
+  font-weight: 400;
+}
+
 .header {
   display: flex;
-  padding: 59px;
+  padding: 45px;
   justify-content: space-between;
   text-align: center;
   flex-wrap: wrap;
@@ -11,57 +19,32 @@
   align-items: center;
 }
 
-.menu,
-.menu-botao {
+.logo h1 {
+  font-size: 2rem;
+  margin-left: 5px;
+}
+
+.menu {
   display: flex;
   align-items: center;
 }
 
-.menu li {
-  margin-left: 30px;
-  font-family: 'Public Sans', sans-serif;
+.menu li a {
+  padding: 10px 5px;
+  transition: 0.3s ease-in-out;
+  margin: 2rem;
+  font-size: 1.5rem;
 }
 
 .menu li a:hover {
   color: white;
   background-color: #5bc241;
-  width: 55px;
-  height: 40px;
-  padding: 6px;
 }
 
-.button {
+.menu li a.btn {
   background-color: #5bc241;
   color: white;
-  border-radius: 10px;
-  border: none;
-  width: 127px;
-  height: 39px;
-  margin-left: 30px;
-}
-
-@media (max-width: 375px) {
-  .logo{
-    display: flex;
-    width: 100%;
-    align-items: center;
-    
-  }
-
-  .menu-botao{
-    display: block;
-    width: 100%;
-    align-items: center;
-  }
-  
-  .menu {
-    display: block;
-    margin-top: 30px;
-  }
-
-  .menu li {
-    font-size: 40px;
-    line-height: 47px;
-    align-items: center;
-  }
+  border-radius: 1rem;
+  margin-left: 3rem;
+  padding: 10px 20px;
 }
